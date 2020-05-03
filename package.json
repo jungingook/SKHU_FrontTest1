@@ -1,0 +1,24 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungingook/SKHU_FrontTest1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungingook/SKHU_FrontTest1/issues"
+  },
+  "homepage": "https://github.com/jungingook/SKHU_FrontTest1#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
