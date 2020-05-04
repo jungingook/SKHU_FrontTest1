@@ -27,5 +27,9 @@ function test_sum (f){
     // 콜백 함수의 리턴값을 출력한다
     console.log(f(test_arr))
 }
-
+//(3) test_sum 함수를 5회 반복 호출하라.
+test_sum(f)
+test_sum(f)
+test_sum(f)
+test_sum(f)
 test_sum(f)
