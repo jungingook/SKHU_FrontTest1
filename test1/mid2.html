@@ -10,28 +10,37 @@
       box-shadow: 3px 3px 3px #aaa; 
       display: inline-block;
     }
+    #colorBox{
+        width: 50px;
+        height: 50px;
+        background-color: yellow;
+        border: 1px solid black;
+        margin: 10px auto;
+    }
   </style>
 </head>
 <body>
   <div id="app">
     <div>
-    <input type="text" name="" id="" v-model="value">
-    <button type="button" v-on:click="plus">++</button>
-    <button type="button" v-on:click="minus">--</button>
+    <button type="button" v-bind:disabled="show" v-on:click="buttonShow">보이기</button>
+    <button type="button" v-bind:disabled="!show" v-on:click="buttonHide">감추기</button>
+    </div>
+    <div v-show="show" id="colorBox">
+
     </div>
   </div>
   <script type="text/javascript">
     var app = new Vue({
       el: '#app',
       data: {
-        value : 0
+        show : true
       },
       methods:{
-        plus : function(){
-            this.value++
+        buttonShow : function(){
+            this.show = true
         },
-        minus : function(){
-            this.value--
+        buttonHide : function(){
+            this.show = false
         }
       }
     })    
