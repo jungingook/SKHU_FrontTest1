@@ -10,11 +10,17 @@
       box-shadow: 3px 3px 3px #aaa; 
       display: inline-block;
     }
+    #boxZone{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .box{
         width: 50px;
         height: 50px;
+        margin: 5px;
         text-align: center;
         line-height: 50px;
+        border: 1px solid black; 
     }
   </style>
 </head>
@@ -24,7 +30,7 @@
     <input type="text" name="" id="" v-model="value">
     <button type="button" v-on:click="make">생성</button>
     </div>
-    <div>
+    <div id = "boxZone">
         <span class="box" v-for="i in arr"> {{ i }} </span>
     </div>
   </div>
