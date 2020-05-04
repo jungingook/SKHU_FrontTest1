@@ -9,7 +9,7 @@ for (let index = 0; index < 100; index++) {
 }
 
 //(3) 배열을 내림차순으로 정렬하여 출력하시오.
-arr.sort((a,b)=>{ return b-a; }); // 내림차순  reverse 사용시 아스키 코드순 정렬이라 10단위 이하의 숫자가 정상적으로 정렬되지 않는다.
+arr.sort((a,b)=>{ return b-a; }); // 내림차순 reverse 사용시 아스키 코드순 정렬이라 10단위 이하의 숫자가 정상적으로 정렬되지 않는다.
 console.log(arr)
 
 
