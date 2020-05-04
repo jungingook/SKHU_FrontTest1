@@ -28,8 +28,6 @@ function test_sum (f){
     console.log(f(test_arr))
 }
 //(3) test_sum 함수를 5회 반복 호출하라.
-test_sum(f)
-test_sum(f)
-test_sum(f)
-test_sum(f)
-test_sum(f)
+for (let index = 0; index < 5; index++) {
+    test_sum(f)
+}
