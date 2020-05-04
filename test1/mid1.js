@@ -8,7 +8,7 @@ let arr = []
 for (let index = 0; index < 100; index++) {
     arr[index] = Math.floor(Math.random() * 100 + 1)
 }
-//(3) 배열의 원소의 평균을 구하고,그 평균을 소수점 아래 한 자리까지 출력하시오
+//(3) 배열의 원소의 평균을 구하고,그 평균을 소수점 아래 한 자리까지 출력하시
 for (let index = 0; index < arr.length; index++) {
     sum = sum +arr[index]
 }
